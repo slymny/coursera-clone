@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+button {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  display: flex;
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  align-items: center;
+}
+
+.logo {
+  flex: 1;
+  max-width: 20%;
+}
+
+nav {
+  flex: 2;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-link {
+  color: #5f5f79;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.cart {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.landing-section {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+}
+
+.landing-main {
+  flex: 1;
+}
+
+.landing-text h1 {
+  font-size: 44px;
+  font-weight: 500;
+  background: linear-gradient(to right, #494964, #6f6f89);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.landing-text p {
+  margin-top: 5px;
+  font-size: 22px;
+  color: #585772;
+}
+
+.landing-buttons {
+  padding: 50px 0px 0px 0px;
+  margin: 30px 0px 0px 30px;
+}
+
+.join {
+  border: none;
+  background: #00419E;
+  color: white;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.coursera-business {
+  border: 2px solid #00419E;
+  background: transparent;
+  color: #00419E;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.landing-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.landing-image img {
+  height: 60vh;
+}
+
