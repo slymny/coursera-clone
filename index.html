@@ -12,20 +12,36 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <header>
-      <img class="logo" src="./images/logo.svg" alt="logo" />
-      <nav>
-        <ul class="nav-links">
-          <li><a class="nav-link" href="#">Degrees</a></li>
-          <li><a class="nav-link" href="#">Find Your New Career</a></li>
-          <li><a class="nav-link" href="#">Enterprise</a></li>
-          <li><a class="nav-link" href="#">Universities</a></li>
-          <li><a class="nav-link" href="#">Log In</a></li>
-        </ul>
-      </nav>
-      <button class="join">Join for Free</button>
+      <div class="logo-search-box">
+        <img class="logo" src="./images/logo.svg" alt="logo" />
+        <button class="header-buttons explore-button">Explore</button>
+        <div class="learn-input">
+          <input
+            type="search"
+            name="learn"
+            id="learn"
+            placeholder="What do you want to learn?"
+          />
+          <button class="header-buttons search" type="submit"><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+
+      <div class="nav-bar">
+        <nav>
+          <ul class="nav-links">
+            <li><a class="nav-link" href="#">Online Degrees</a></li>
+            <li><a class="nav-link" href="#">Find Your New Career</a></li>
+            <li><a class="nav-link" href="#">For Enterprise</a></li>
+            <li><a class="nav-link" href="#">For Universities</a></li>
+            <li><a class="nav-link login" href="#">Log In</a></li>
+          </ul>
+        </nav>
+        <button class="header-buttons nav-join">Join for Free</button>
+      </div>
     </header>
     <main>
       <section class="landing-section">
@@ -43,66 +59,68 @@
             <button class="coursera-business">Try Coursera for Business</button>
           </div>
         </div>
-        <div class="landing-image">
-          <img
-            src="./images/headerImage_918x992.png"
-            alt="girl holding notebooks"
-          />
-        </div>
+        <img
+          class="landing-image"
+          src="./images/headerImage_918x992.png"
+          alt="girl holding notebooks"
+        />
       </section>
       <section class="collaboration">
-        <div class="collaboration-text">We collaborate with <a href="#">200+ leading universities and companies</a></div>
+        <div class="collaboration-text">
+          We collaborate with
+          <a href="#">200+ leading universities and companies</a>
+        </div>
         <div class="collaborators">
-            <img src="./images/illinois.png" alt="illinois">
-            <img src="./images/duke_updated_2020.png" alt="duke">
-            <img src="./images/google.png" alt="google">
-            <img src="./images/umich.jpeg" alt="umich">
-            <img src="./images/ibm.png" alt="ibm">
-            <img src="./images/imperial.png" alt="imperial">
-            <img src="./images/stanford.png" alt="stanford">
-            <img src="./images/penn.png" alt="penn">
+          <img src="./images/illinois.png" alt="illinois" />
+          <img src="./images/duke_updated_2020.png" alt="duke" />
+          <img src="./images/google.png" alt="google" />
+          <img src="./images/umich.jpeg" alt="umich" />
+          <img src="./images/ibm.png" alt="ibm" />
+          <img src="./images/imperial.png" alt="imperial" />
+          <img src="./images/stanford.png" alt="stanford" />
+          <img src="./images/penn.png" alt="penn" />
         </div>
       </section>
       <section class="explore">
         <div class="courses data-science">
-            <img src="./images/data_science.jpeg" alt="">
-            <div class="courses-title">Data Science</div>
-            <div class="course-number">425 courses</div>
+          <img src="./images/data_science.jpeg" alt="" />
+          <div class="courses-title">Data Science</div>
+          <div class="course-number">425 courses</div>
         </div>
         <div class="courses business">
-            <img src="./images/business.jpeg" alt="">
-            <div class="courses-title">Business</div>
-            <div class="course-number">1095 courses</div>
+          <img src="./images/business.jpeg" alt="" />
+          <div class="courses-title">Business</div>
+          <div class="course-number">1095 courses</div>
         </div>
         <div class="courses computer-science">
-            <img src="./images/computer_science.jpeg" alt="">
-            <div class="courses-title">Computer Science</div>
-            <div class="course-number">668 courses</div>
+          <img src="./images/computer_science.jpeg" alt="" />
+          <div class="courses-title">Computer Science</div>
+          <div class="course-number">668 courses</div>
         </div>
         <div class="courses health">
-            <img src="./images/health.jpeg" alt="">
-            <div class="courses-title">Health</div>
-            <div class="course-number">471 courses</div>
+          <img src="./images/health.jpeg" alt="" />
+          <div class="courses-title">Health</div>
+          <div class="course-number">471 courses</div>
         </div>
         <div class="courses social-sciences">
-            <img src="./images/social_sciences.jpeg" alt="">
-            <div class="courses-title">Social Sciences</div>
-            <div class="course-number">401 courses</div>
+          <img src="./images/social_sciences.jpeg" alt="" />
+          <div class="courses-title">Social Sciences</div>
+          <div class="course-number">401 courses</div>
         </div>
         <div class="courses personal-development">
-            <img src="./images/personal_development.jpeg" alt="">
-            <div class="courses-title">Personal Development</div>
-            <div class="course-number">137 courses</div>
+          <img src="./images/personal_development.jpeg" alt="" />
+          <div class="courses-title">Personal Development</div>
+          <div class="course-number">137 courses</div>
         </div>
         <div class="courses business">
-            <img src="./images/business.jpeg" alt="">
-            <div class="courses-title">Business</div>
-            <div class="course-number">1095 courses</div>
+          <img src="./images/business.jpeg" alt="" />
+          <div class="courses-title">Business</div>
+          <div class="course-number">1095 courses</div>
         </div>
       </section>
       <section class="outcomes">
         <div class="outcomes-img">
-            <img src="./images/outcomes.png" alt="working people">
+          <img src="./images/outcomes.png" alt="working people" />
         </div>
         <div class="outcomes-text">
           <h2 class="outcomes-title">Learner outcomes on Coursera</h2>
@@ -129,30 +147,36 @@
           </p>
         </div>
         <div class="business-buttons">
-            <button class="coursera-business">Courseera for Enterprise</button>
-            <button class="coursera-business">Try Coursera for Business</button>
+          <button class="coursera-business">Courseera for Enterprise</button>
+          <button class="coursera-business">Try Coursera for Business</button>
         </div>
       </section>
       <section class="next-step">
-          <div class="img-next-step">
-            <img src="./images/Image-Next-Step.png" alt="">
-          </div>
-          <div class="next-step-text">
-              <h2 class="next-step-title">Take the next step toward your personal and professional goals with Coursera.</h2>
-              <p class="next-step-paragraph">Join now to receive personalized recommendations from the full Coursera catalog.</p>
-          </div>
-          <button class="join">Join for Free</button>
+        <div class="img-next-step">
+          <img src="./images/Image-Next-Step.png" alt="" />
+        </div>
+        <div class="next-step-text">
+          <h2 class="next-step-title">
+            Take the next step toward your personal and professional goals with
+            Coursera.
+          </h2>
+          <p class="next-step-paragraph">
+            Join now to receive personalized recommendations from the full
+            Coursera catalog.
+          </p>
+        </div>
+        <button class="join">Join for Free</button>
       </section>
     </main>
     <footer>
-        <p class="footer-text">© 2022 Coursera Inc. All rights reserved.</p>
-        <div class="footer-socials">
-            <img src="./images/facebook.png" alt="facebook">
-            <img src="./images/linkedin.png" alt="linkedin">
-            <img src="./images/twitter.png" alt="twitter">
-            <img src="./images/youtube.png" alt="youtube">
-            <img src="./images/instagram.png" alt="instagram">
-        </div>
+      <p class="footer-text">© 2022 Coursera Inc. All rights reserved.</p>
+      <div class="footer-socials">
+        <img src="./images/facebook.png" alt="facebook" />
+        <img src="./images/linkedin.png" alt="linkedin" />
+        <img src="./images/twitter.png" alt="twitter" />
+        <img src="./images/youtube.png" alt="youtube" />
+        <img src="./images/instagram.png" alt="instagram" />
+      </div>
     </footer>
   </body>
 </html>
