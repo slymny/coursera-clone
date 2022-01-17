@@ -26,3 +26,19 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .img-next-step img {
+    max-width: 370px;
+  }
+
+  .next-step-content {
+    margin-top: 30px;
+    max-width: 90%;
+    height: auto;
+  }
+
+  .next-step-content button {
+    max-width: 370px;
+  }
+}
