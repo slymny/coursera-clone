@@ -1,0 +1,31 @@
+.landing-section {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .landing-main {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .landing-text h1 {
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: #1f1f1f;
+  }
+  
+  .landing-text p {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #1f1f1f;
+    max-width: 85%;
+  }
+  
+  .landing-buttons {
+    padding: 50px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
+  }
