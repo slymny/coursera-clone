@@ -25,21 +25,63 @@ header {
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
+    flex-shrink: 0;
   }
   
   .logo {
-    flex: 0;
-    width: 20%;
+    flex-shrink: 0;
+    width: 175px;
   }
   
   .explore-button {
     width: 92px;
     height: 36px;
+    flex-shrink: 0;
+  }
+
+  .fa-angle-down {
+    margin-left: 9px;
+  }
+
+  .explore-button ul {
+    display: none;
+  }
+
+  .explore-button:hover ul {
+    display: block;
+    background-color: #F5F5F5;
+    text-align: left;
+    width: 330px;
+    height: 500px;
+    position: relative;
+    top: 90%;
+  }
+
+  .explore-button:hover {
+    background-color: white;
+    color: #0056D2;
+  }
+
+  .explore-button:hover ul li {
+    text-decoration: none;
+    color: #373A3C;
+    list-style: none;
+    font-size: 16px;
+    width: 280px;
+    margin: 15px auto;
+  }
+
+  .explore-button:hover ul h2 {
+    color: #373A3C;
+    font-size: 14px;
+    width: 280px;
+    margin: 15px auto;
   }
   
   .learn-input {
     display: flex;
     margin-left: -8px;
+    flex-shrink: 0;
   }
   
   #learn {
@@ -47,6 +89,7 @@ header {
     height: 40px;
     margin-right: 0;
     padding: 10px;
+    flex-shrink: 0;
   }
   
   .search {
@@ -56,6 +99,7 @@ header {
     width: 40px;
     border-radius: 2px;
     margin-left: 0;
+    flex-shrink: 0;
   }
   
   .fas {
@@ -68,22 +112,26 @@ header {
     justify-content: space-evenly;
     align-items: center;
     min-width: 50%;
+    flex-shrink: 0;
   }
   
   nav {
-    width: 70%;
+    width: 475px;
+    flex-shrink: 0;
   }
   
   .nav-links {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    flex-shrink: 0;
   }
   
   .nav-link {
     color: #1F1F1F;
     font-size: 14px;
     text-decoration: none;
+    flex-shrink: 0;
   }
   
   .login {
@@ -98,8 +146,33 @@ header {
   .nav-join {
     width: 137px;
     height: 36px;
+    flex-shrink: 0;
   }
   
   .nav-join:hover {
     background: #00419E;
+  }
+
+  @media screen and (max-width: 1400px) {
+    #learn {
+      width: 130px;
+    }
+  }
+
+  @media screen and (max-width: 1080px) {
+    .nav-bar {
+      display: none;
+    }
+
+    .learn-input {
+      display: none;
+    }
+
+    .explore-button {
+      display: none;
+    }
+
+    header {
+      justify-content: center;
+    }
   }
