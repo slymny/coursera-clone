@@ -19,7 +19,6 @@
 
 .collaborators {
   display: flex;
-  
   align-items: center;
   justify-content: space-around;
   min-width: 100%;
@@ -32,3 +31,17 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .collaborators {
+    flex-wrap: wrap;
+  }
+
+  .collaboration-text {
+    text-align: center;
+  }
+
+  .collaborators-img {
+    margin-top: 15px;
+    padding: 1px;
+  }
+}
