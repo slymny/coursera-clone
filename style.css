@@ -77,3 +77,13 @@ footer {
     font-size: 32px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  footer {
+    flex-direction: column;
+  }
+
+  .footer-socials {
+    margin-top: 15px;
+  }
+}
