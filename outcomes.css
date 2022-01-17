@@ -57,3 +57,13 @@
     margin-bottom: 30px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .outcomes-img img {
+    max-width: 370px;
+  }
+
+  .outcomes-btn {
+    max-width: 320px;
+  }
+}
