@@ -7,11 +7,11 @@
     <title>Coursera-clone</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="header-nav-bar.css" />
-    <link rel="stylesheet" href="landing.css">
-    <link rel="stylesheet" href="collaboration.css">
-    <link rel="stylesheet" href="explore.css">
-    <link rel="stylesheet" href="outcomes.css">
-    <link rel="stylesheet" href="next-step.css">
+    <link rel="stylesheet" href="landing.css" />
+    <link rel="stylesheet" href="collaboration.css" />
+    <link rel="stylesheet" href="explore.css" />
+    <link rel="stylesheet" href="outcomes.css" />
+    <link rel="stylesheet" href="next-step.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,24 +29,49 @@
   <body>
     <header>
       <div class="logo-search-box">
-        <img class="logo" src="./images/logo.svg" alt="logo" />
+        <div class="hamburger-btn-container">
+          <button class="hamburger-btn"><i class="fas fa-bars"></i>
+            <ul>
+              <li><a href="#">For Enterprise</a></li>
+              <li><a href="#">For Universities</a></li>
+              <hr>
+              <li><h2>Goals</h2></li>
+              <li><a href="#">Take a Free Course</a></li>
+              <li><a href="#">Earn a Degree</a></li>
+              <li><a href="#">Earn a Certificate</a></li>
+              <li><a href="#">Launch or Advance Your Career</a></li>
+              <hr>
+              <li><h2>Subjects</h2></li>
+              <li><a href="#">Data Science</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Computer Science</a></li>
+              <li><a href="#">Information Technology</a></li>
+              <hr>
+              <li><a href="#">Browse all subjects</a></li>
+            </ul>
+          </button>
+        </div>
+        <a href="#landing-section"><img class="logo" src="./images/logo.svg" alt="logo" /></a>
+        <button class="header-mobile-search-buttons" type="submit">
+          <i class="fas fa-search"></i>
+        </button>
         <div class="explore-btn-container">
-        <button class="header-buttons explore-button">Explore  <i class="fas fa-angle-down"></i>
-        
-          <ul>
-          <h2>Goals</h2>
-          <li><a href="#">Take a Free Course</a></li>
-          <li><a href="#">Earn a Degree</a></li>
-          <li><a href="#">Earn a Certificate</a></li>
-          <li><a href="#">Launch or Advance Your Career</a></li>
-          <h2>Subjects</h2>
-          <li><a href="#">Data Science</a></li>
-          <li><a href="#">Business</a></li>
-          <li><a href="#">Computer Science</a></li>
-          <li><a href="#">Information Technology</a></li>
-        </ul>
-      </div>
-    </button>
+          <button class="header-buttons explore-button">
+            Explore <i class="fas fa-angle-down"></i>
+            <ul>
+              <h2>Goals</h2>
+              <li><a href="#">Take a Free Course</a></li>
+              <li><a href="#">Earn a Degree</a></li>
+              <li><a href="#">Earn a Certificate</a></li>
+              <li><a href="#">Launch or Advance Your Career</a></li>
+              <h2>Subjects</h2>
+              <li><a href="#">Data Science</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Computer Science</a></li>
+              <li><a href="#">Information Technology</a></li>
+            </ul>
+          </button>
+        </div>
         <div class="learn-input">
           <input
             type="search"
@@ -101,13 +126,37 @@
           <a href="#">200+ leading universities and companies</a>
         </div>
         <div class="collaborators">
-          <img class="collaborators-img" src="./images/illinois.png" alt="illinois" />
-          <img class="collaborators-img" src="./images/duke_updated_2020.png" alt="duke" />
-          <img class="collaborators-img" src="./images/google.png" alt="google" />
-          <img class="collaborators-img" src="./images/umich.jpeg" alt="umich" />
+          <img
+            class="collaborators-img"
+            src="./images/illinois.png"
+            alt="illinois"
+          />
+          <img
+            class="collaborators-img"
+            src="./images/duke_updated_2020.png"
+            alt="duke"
+          />
+          <img
+            class="collaborators-img"
+            src="./images/google.png"
+            alt="google"
+          />
+          <img
+            class="collaborators-img"
+            src="./images/umich.jpeg"
+            alt="umich"
+          />
           <img class="collaborators-img" src="./images/ibm.png" alt="ibm" />
-          <img class="collaborators-img" src="./images/imperial.png" alt="imperial" />
-          <img class="collaborators-img" src="./images/stanford.png" alt="stanford" />
+          <img
+            class="collaborators-img"
+            src="./images/imperial.png"
+            alt="imperial"
+          />
+          <img
+            class="collaborators-img"
+            src="./images/stanford.png"
+            alt="stanford"
+          />
           <img class="collaborators-img" src="./images/penn.png" alt="penn" />
         </div>
       </section>
@@ -200,14 +249,18 @@
             <img src="./images/outcomes.png" alt="working people" />
           </div>
           <div class="outcomes-text">
-            <h2 class="sections-title outcomes-title">Learner outcomes on Coursera</h2>
+            <h2 class="sections-title outcomes-title">
+              Learner outcomes on Coursera
+            </h2>
             <p class="outcomes-paragraph">
-              <strong>87% of people learning</strong> for professional development <strong>report career
-              benefits</strong> like getting a promotion, a raise, or starting a new
-              career
+              <strong>87% of people learning</strong> for professional
+              development <strong>report career benefits</strong> like getting a
+              promotion, a raise, or starting a new career
             </p>
             <div class="outcomes-source">- Coursera Impact Report (2020)</div>
-            <button class="join sections-join-btn outcomes-btn">Join for Free</button>
+            <button class="join sections-join-btn outcomes-btn">
+              Join for Free
+            </button>
           </div>
         </div>
       </section>
@@ -225,7 +278,7 @@
             Coursera catalog.
           </p>
           <button class="join sections-join-btn">Join for Free</button>
-        </div>    
+        </div>
       </section>
     </main>
     <footer>
